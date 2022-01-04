@@ -7,4 +7,4 @@ sample output: 35
 #######################   CODE STARTS HERE !
 
 argument = int(input("your number please : " ))
-(lambda x: x+25) (argument)
+print((lambda x: x+25) (argument))
